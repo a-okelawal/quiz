@@ -1,0 +1,895 @@
+{
+  "category":
+  {
+    "art" :
+    {
+      "0":
+      {
+        "id" : 0,
+        "question": "What is the location of London's National Gallery?",
+        "options" :
+        {
+            "a" : "Grosvenor Square",
+            "b" : "Leicester Square",
+            "c" : "Sloane Square",
+            "d" : "Trafalgar Square"
+        },
+        "answer" : "d",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "1":{
+        "id" : 1,
+        "question": "What nationality was Edvard Munch, who produced the famous painting The Scream in 1893?",
+        "options" :
+        {
+            "a" : "Belgian",
+            "b" : "German",
+            "c" : "Norwegian",
+            "d" : "Swedish"
+        },
+        "answer" : "c",
+        "comment" : "The painting has been stolen twice, in 1994 and 2004.",
+        "difficulty": 1
+      },
+      "2":{
+        "id" : 2,
+        "question": "Pablo Picasso was born in 1881 in which Spanish city?",
+        "options" :
+        {
+            "a" : "Madrid",
+            "b" : "Malagna",
+            "c" : "Marbella",
+            "d" : "Murcia"
+        },
+        "answer" : "b",
+        "comment": "The picasso Foundation - Native Home Museum was set up there in 1988.",
+        "difficulty": 1
+      },
+      "3":{
+        "id" : 3,
+        "question": "Which Dutch artist painted the Laughing Cavalier in 1624?",
+        "options" :
+        {
+            "a" : "Ferdinand Bol",
+            "b" : "Frans Hals",
+            "c" : "Jan van der Meer",
+            "d" : "Johannes Vermeer"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "4":{
+        "id" : 4,
+        "question": "Which English artist painted Rain, Steam and Speed - The Great Western Railway in 1844?",
+        "options" :
+        {
+            "a" : "Ford Madox Brown",
+            "b" : "John Constable",
+            "c" : "Dante Gabriel Rossetti",
+            "d" : "J M W Turner"
+        },
+        "answer" : "d",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "5":{
+        "id" : 5,
+        "question": "What is the colloquial name for the 1871 painting Arrangement in Grey and Black: The Artisit's Mother?",
+        "options" :
+        {
+            "a" : "Whistler's Mother",
+            "b" : "Wilbur's Mother",
+            "c" : "Winslow's Mother",
+            "d" : "Winterton's Mother"
+        },
+        "answer" : "a",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "6":{
+        "id" : 6,
+        "question": "Between 1887 and 1888 Vincent Van Gogh produced a series of still life paintings depicting which flowers?",
+        "options" :
+        {
+            "a" : "Daffodils",
+            "b" : "Geraniums",
+            "c" : "Sunflowers",
+            "d" : "Tulips"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "7":{
+        "id" : 7,
+        "question": "The English artist George Stubbs, who died in 1806, is best remembered for his paintings of what?",
+        "options" :
+        {
+            "a" : "Cats",
+            "b" : "Deer",
+            "c" : "Dogs",
+            "d" : "Horses"
+        },
+        "answer" : "d",
+        "comment" : "His most famous work is of the prancing horse Whistlejacket.",
+        "difficulty": 1
+      },
+      "8":{
+        "id" : 8,
+        "question": "Who created the modern sculpture angel of the north, that overlooks the A1 road and the East Coast main line in Gateshead?",
+        "options" :
+        {
+            "a" : "Anthony Gormley",
+            "b" : "Anthony Greenly",
+            "c" : "Anthony Gresley",
+            "d" : "Anthony Grimley"
+        },
+        "answer" : "a",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "9":{
+        "id" : 9,
+        "question": "Hans Holbein the Younger was criticized by Henry VIII for painting a flattering portrait of whom?",
+        "options" :
+        {
+            "a" : "Anne Boleyn",
+            "b" : "Anne of Cleves",
+            "c" : "Catherine Howard",
+            "d" : "Jane Seymour"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "10":{
+        "id" : 10,
+        "question": "Who launched the 1947 collection that came to be known as the 'New Look'?",
+        "options" :
+        {
+            "a" : "Bill Blass",
+            "b" : "Christian Dior",
+            "c" : "Salvatore Ferragamo",
+            "d" : "Yves Saint-Laurent"
+        },
+        "answer" : "b",
+        "comment" : "The term was coined by Carmel Snow, editor-in-chief of Harper's Bazaar",
+        "difficulty": 0
+      },
+      "11":{
+        "id" : 11,
+        "question": "Which fashion magazine was launched by Jean Prouvost in 1937?",
+        "options" :
+        {
+            "a" : "Cosmopolitan",
+            "b" : "Elite",
+            "c" : "Marie Claire",
+            "d" : "Vogue"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "12":{
+        "id" : 12,
+        "question": "The designer Jimmy Choo specialises in what?",
+        "options" :
+        {
+            "a" : "Hats",
+            "b" : "Gloves",
+            "c" : "Lingerie",
+            "d" : "Shoes"
+        },
+        "answer" : "d",
+        "comment": "",
+        "difficulty": 0
+      },
+      "13":{
+        "id" : 13,
+        "question": "Which male fashion line did Ralph Lauren launch in 1994?",
+        "options" :
+        {
+            "a" : "Black Label",
+            "b" : "Blue Label",
+            "c" : "Purple Label",
+            "d" : "White Label"
+        },
+        "answer" : "c",
+        "comment" : "Black label was launched in 2007.",
+        "difficulty": 1
+      },
+      "14":{
+        "id" : 14,
+        "question": "Which flower became Mary Quant's logo?",
+        "options" :
+        {
+            "a" : "The buttercup",
+            "b" : "The daffodil",
+            "c" : "The daisy",
+            "d" : "The lily"
+        },
+        "answer" : "c",
+        "comment" : "She introduced a range of clothes for her Daisy Doll in 1973.",
+        "difficulty": 1
+      },
+      "15":{
+        "id" : 15,
+        "question": "Paul Smith set up his first shop in 1970 in which city?",
+        "options" :
+        {
+            "a" : "Leeds",
+            "b" : "Leicester",
+            "c" : "Nottingham",
+            "d" : "Sheffield"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "16":{
+        "id" : 16,
+        "question": "Which supermodel wrote the 1994 novel 'Swan'?",
+        "options" :
+        {
+            "a" : "Naomi Campbell",
+            "b" : "Yasmine Le Bon",
+            "c" : "Elle Macpherson",
+            "d" : "Kate Moss"
+        },
+        "answer" : "a",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "17":{
+        "id" : 17,
+        "question": "In 1997 Stella McCartney was appointed chief designer at which Paris fashion house?",
+        "options" :
+        {
+            "a" : "Chandelle",
+            "b" : "Charmaine",
+            "c" : "Chloe",
+            "d" : "Christine"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "18":{
+        "id" : 18,
+        "question": "The National Institute of Fashion Technology was established in 1987 in which country?",
+        "options" :
+        {
+            "a" : "Australia",
+            "b" : "Canada",
+            "c" : "India",
+            "d" : "New Zealand"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "19":{
+        "id" : 19,
+        "question": "Who designed Queen Elizabeth II's wedding and coronation gowns?",
+        "options" :
+        {
+            "a" : "Hardy Amies",
+            "b" : "Terence Conran",
+            "c" : "Norman Hartnell",
+            "d" : "Teddy Tinling"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 2
+      }
+    },
+    "foo" :
+    {
+      "0":
+      {
+        "id" : 0,
+        "question": "Which alcohol is traditionally added to the base of a Christmas trifle?",
+        "options" :
+        {
+            "a" : "Gin",
+            "b" : "Sherry",
+            "c" : "Vodka",
+            "d" : "Whisky"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "1":
+      {
+        "id" : 1,
+        "question": "Stollen is a traditional Christmas fruit loaf of which country?",
+        "options" :
+        {
+            "a" : "France",
+            "b" : "Germanny",
+            "c" : "Greece",
+            "d" : "Italy"
+        },
+        "answer" : "b",
+        "comment" : "Occassionally iced, stollen has a layer of marzipan in the middle of German fruit-loaf.",
+        "difficulty": 0
+      },
+      "2":
+      {
+        "id" : 2,
+        "question": "What is the meal consisting of left-over vegetables served on 26th December?",
+        "options" :
+        {
+            "a" : "Bubble and Squeak",
+            "b" : "Champ",
+            "c" : "Frittata",
+            "d" : "Rosti"
+        },
+        "answer" : "a",
+        "comment": "",
+        "difficulty": 2
+      },
+      "3":
+      {
+        "id" : 3,
+        "question": "What is the Christmas treat 'panettone'?",
+        "options" :
+        {
+            "a" : "Austrian winter cheesecake",
+            "b" : "French spicy dessert",
+            "c" : "Italian fruitbread",
+            "d" : "Scottish cake made with mincemeat"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "4":
+      {
+        "id" : 4,
+        "question": "What would you find under the icing of a Christmas cake?",
+        "options" :
+        {
+            "a" : "Buttercream",
+            "b" : "Jam",
+            "c" : "Marzipan",
+            "d" : "Pastry"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "5":
+      {
+        "id" : 5,
+        "question": "What in Britain was trditionally mixed into a Christmas pudding 'for good luck'?",
+        "options" :
+        {
+            "a" : "Coin",
+            "b" : "Horsehoe",
+            "c" : "Key",
+            "d" : "Ring"
+        },
+        "answer" : "a",
+        "comment" : "The value of coin varied, but the practice has nearly died out.",
+        "difficulty": 0
+      },
+      "6":
+      {
+        "id" : 6,
+        "question": "Traditionally served hot at Christmas, with what is mulled wine concocted?",
+        "options" :
+        {
+            "a" : "Red wine, crenberry, juice, orange",
+            "b" : "Red wine, sugar, spices",
+            "c" : "Red wine, lemonade",
+            "d" : "White wine, assored fruits"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "7":
+      {
+        "id" : 7,
+        "question": "A traditional luxury Christmas starter, what is gravadlax?",
+        "options" :
+        {
+            "a" : "Cured salmon",
+            "b" : "Mackerel pate",
+            "c" : "Smoked trout",
+            "d" : "Soused herring"
+        },
+        "answer" : "a",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "8":
+      {
+        "id" : 8,
+        "question": "What sauce is traditionally served at Christmas with turkey?",
+        "options" :
+        {
+            "a" : "Apple",
+            "b" : "Cheese",
+            "c" : "Cranberry",
+            "d" : "Tomato"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "9":
+      {
+        "id" : 9,
+        "question": "Which traditional Christmas treat is also used in Cockney rhyming slang?",
+        "options" :
+        {
+            "a" : "Brandy butter",
+            "b" : "Chocolate logs",
+            "c" : "Figgy Pudding",
+            "d" : "Mince pies"
+        },
+        "answer" : "d",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "10":
+      {
+        "id" : 10,
+        "question": "Who captained the German women's football team that beat England in the Euro 2009 final?",
+        "options" :
+        {
+            "a" : "Melanie Behringer",
+            "b" : "Inka Grings",
+            "c" : "Kim Kulig",
+            "d" : "Birgit Prinz"
+        },
+        "answer" : "d",
+        "comment" : "Prinz also scored two goals in the final.",
+        "difficulty": 2
+      },
+      "11":
+      {
+        "id" : 11,
+        "question": "What nationality is Caster Semenya, the athlete currently accused of being a hermaphrodite?",
+        "options" :
+        {
+            "a" : "Ethopian",
+            "b" : "Kenyan",
+            "c" : "Moroccan",
+            "d" : "South Africa"
+        },
+        "answer" : "d",
+        "comment" : "She won the women's 800 metres in Berlin",
+        "difficulty": 1
+      },
+      "12":
+      {
+        "id" : 12,
+        "question": "What nationality is Gisela Dulko, who beat Maria Sharapova in the second round of the 2009 wimbledon ladies' singles?",
+        "options" :
+        {
+            "a" : "Argentinian",
+            "b" : "Chilean",
+            "c" : "French",
+            "d" : "German"
+        },
+        "answer" : "a",
+        "comment": "Dulko lost to Nadia Petrova of Russia in the third round.",
+        "difficulty": 1
+      },
+      "13":
+      {
+        "id" : 13,
+        "question": "Which US golfer won the 2009 US Open championship?",
+        "options" :
+        {
+            "a" : "Ricky Barnes",
+            "b" : "David Duval",
+            "c" : "Lucas Glover",
+            "d" : "Phil Mickleson"
+        },
+        "answer" : "c",
+        "comment" : "The other 3 tied for 2nd place.",
+        "difficulty": 2
+      },
+      "14":
+      {
+        "id" : 14,
+        "question": "In what position did Jenson Button finish in the British Grand PRix in June 2009?",
+        "options" :
+        {
+            "a" : "5th",
+            "b" : "6th",
+            "c" : "7th",
+            "d" : "8th"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "15":
+      {
+        "id" : 15,
+        "question": "What is the postalcode of the Wimbledon tennis venue?",
+        "options" :
+        {
+            "a" : "NE19",
+            "b" : "NW19",
+            "c" : "SE19",
+            "d" : "SW19"
+        },
+        "answer" : "d",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "16":
+      {
+        "id" : 16,
+        "question": "Which country did England beat in semi-final of the European Under-21 Football Championship in June 2009?",
+        "options" :
+        {
+            "a" : "Greece",
+            "b" : "Poland",
+            "c" : "Portugal",
+            "d" : "Sweden"
+        },
+        "answer" : "d",
+        "comment" : "Endgland won 5-4 on penalties after a 3-3 draw",
+        "difficulty": 0
+      },
+      "17":
+      {
+        "id" : 17,
+        "question": "The British and Irish Lions lost the first Test of their 2009 tour of South Africa 26-21 on 20th June. Who scored two of the Lions' three tries?",
+        "options" :
+        {
+            "a" : "Tom Croft",
+            "b" : "Lee Mears",
+            "c" : "Mike Phillips",
+            "d" : "Phil Vickery"
+        },
+        "answer" : "a",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "18":
+      {
+        "id" : 18,
+        "question": "Which cycylist won her 10th national road race title in Abergavenny on 27th of June 2009?",
+        "options" :
+        {
+            "a" : "Nicole Carr",
+            "b" : "Nicole Cooke",
+            "c" : "Nicole Cram",
+            "d" : "Nicole Crooks"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "19":
+      {
+        "id" : 19,
+        "question": "The Australian tourists played their first Ashes warm-up match agaist which county in June 2009?",
+        "options" :
+        {
+            "a" : "Kent",
+            "b" : "Surrey",
+            "c" : "Sussex",
+            "d" : "Warwickshire"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 2
+      }
+    },
+    "gam" :
+    {
+      "0" :
+      {
+        "id" : 0,
+        "question": "Which country music legend was born at Abbot, Texas on 30th April 1933?",
+        "options" :
+        {
+            "a" : "George Strait",
+            "b" : "Hank Williams",
+            "c" : "Jim Reeves",
+            "d" : "Willie Nelson"
+        },
+        "answer" : "d",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "1":
+      {
+        "id" : 1,
+        "question": "Who recorded 'Ebony and Ivory' in 1982 with Paul McCartney?",
+        "options" :
+        {
+            "a" : "Barry White",
+            "b" : "Micheal Jackson",
+            "c" : "Ray Charles",
+            "d" : "Stevie Wonder"
+        },
+        "answer" : "d",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "2":
+      {
+        "id" : 2,
+        "question": "Which pop singer starred alongside Kevin Costner in the film 'The Bodyguard'?",
+        "options" :
+        {
+            "a" : "Celine Dion",
+            "b" : "Diana Ross",
+            "c" : "Janet Jackson",
+            "d" : "Whitney Houston"
+        },
+        "answer" : "d",
+        "comment": "",
+        "difficulty": 0
+      },
+      "3":
+      {
+        "id" : 3,
+        "question": "Which member of The Beatles replaced previous member Pete Best?",
+        "options" :
+        {
+            "a" : "George Harrison",
+            "b" : "Ringo Starr",
+            "c" : "Paul McCartney",
+            "d" : "John Lennon"
+        },
+        "answer" : "b",
+        "comment" : "Drummer Best was replaced by Starr before their first chart hit.",
+        "difficulty": 2
+      },
+      "4":
+      {
+        "id" : 4,
+        "question": "Which pop group's lead singer married the actress Gwyneth Paltrow?",
+        "options" :
+        {
+            "a" : "Coldplay",
+            "b" : "Franz Ferdinand",
+            "c" : "Radiohead",
+            "d" : "The Darkness"
+        },
+        "answer" : "a",
+        "comment" : "Coldplay's lead singer is Chris Martin",
+        "difficulty": 1
+      },
+      "5":
+      {
+        "id" : 5,
+        "question": "Which reggae music legend was backed by the Wailers?",
+        "options" :
+        {
+            "a" : "Desmond Dekker",
+            "b" : "Johnny Nash",
+            "c" : "Bob Marley",
+            "d" : "Jimmy Cliff"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "6":
+      {
+        "id" : 6,
+        "question": "Which live 8 pop performer had hits with 'Into The Groove' and 'Like a Virgin'?",
+        "options" :
+        {
+            "a" : "Elton John",
+            "b" : "Madonna",
+            "c" : "Paul McCartney",
+            "d" : "Robbie Williams"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "7":
+      {
+        "id" : 7,
+        "question": "With which soong did Hot Chocolate have a major pop hit in November 1975?",
+        "options" :
+        {
+            "a" : "You Sassy Thing",
+            "b" : "You Saucy Thing",
+            "c" : "You Sexy Thing",
+            "d" : "You Sixty Thing"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "8":
+      {
+        "id" : 8,
+        "question": "Whhich enduring pop band memorably recorded 'Satisfaction' in 1965?",
+        "options" :
+        {
+            "a" : "Status Quo",
+            "b" : "The Searchers",
+            "c" : "The Who",
+            "d" : "The Rolling Stones"
+        },
+        "answer" : "d",
+        "comment" : "The full title is '(I can't Get No) Satisfaction'.",
+        "difficulty": 1
+      },
+      "9":
+      {
+        "id" : 9,
+        "question": "Which pop music legend is respectfully remembered as 'The King'?",
+        "options" :
+        {
+            "a" : "Elvis Presley",
+            "b" : "Jim Morrison",
+            "c" : "Jimi Hendrix",
+            "d" : "Buddy Holly"
+        },
+        "answer" : "a",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "10":
+      {
+        "id" : 10,
+        "question": "What game character is a plumber?",
+        "options" :
+        {
+            "a" : "Donkey Kong",
+            "b" : "Dante",
+            "c" : "Mario",
+            "d" : "Zelda"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "11":
+      {
+        "id" : 11,
+        "question": "What is the main character's name in the game, Legend of Zelda?",
+        "options" :
+        {
+            "a" : "Zelda",
+            "b" : "Link",
+            "c" : "Kain",
+            "d" : "Merlin"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 1
+      },
+      "12":
+      {
+        "id" : 12,
+        "question": "What game was made after Dracula?",
+        "options" :
+        {
+            "a" : "Castlevania",
+            "b" : "Soul Reaper",
+            "c" : "Halo",
+            "d" : "Half-life"
+        },
+        "answer" : "a",
+        "comment": "",
+        "difficulty": 1
+      },
+      "13":
+      {
+        "id" : 13,
+        "question": "NES is short for..?",
+        "options" :
+        {
+            "a" : "Never Ending Simulation",
+            "b" : "New Enterprise System",
+            "c" : "Not Ever Still",
+            "d" : "Nintendo Entertainment System"
+        },
+        "answer" : "d",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "14":
+      {
+        "id" : 14,
+        "question": "What part of an Xbox 360 causes the 'Red Ring of Death'?",
+        "options" :
+        {
+            "a" : "Graphics Card",
+            "b" : "Heat Sink",
+            "c" : "The Lights",
+            "d" : "The Color of the box"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "15":
+      {
+        "id" : 15,
+        "question": "Sonic is what color?",
+        "options" :
+        {
+            "a" : "Blue",
+            "b" : "Green",
+            "c" : "Black",
+            "d" : "Gold"
+        },
+        "answer" : "a",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "16":
+      {
+        "id" : 16,
+        "question": "Pikachu uses what element as it's power?",
+        "options" :
+        {
+            "a" : "Fire",
+            "b" : "Water",
+            "c" : "Lightening",
+            "d" : "Earth"
+        },
+        "answer" : "c",
+        "comment" : "",
+        "difficulty": 0
+      },
+      "17":
+      {
+        "id" : 17,
+        "question": "What year was DOOM first released?",
+        "options" :
+        {
+            "a" : "1973",
+            "b" : "1993",
+            "c" : "1983",
+            "d" : "2003"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 2
+      },
+      "18":
+      {
+        "id" : 18,
+        "question": "In the game of 'Metal Gear Solid', who is the twin brother of solid snake?",
+        "options" :
+        {
+            "a" : "Liquid Aligator",
+            "b" : "Solid Panda",
+            "c" : "Liquid Panda",
+            "d" : "Liquid Snake"
+        },
+        "answer" : "d",
+        "comment" : "",
+        "difficulty": 3
+      },
+      "19":
+      {
+        "id" : 19,
+        "question": "In 'Mortal Kombat', what is heard when Scorpion uses his spear?",
+        "options" :
+        {
+            "a" : "Have a nice day",
+            "b" : "Get over here",
+            "c" : "Come get me",
+            "d" : "Come over here"
+        },
+        "answer" : "b",
+        "comment" : "",
+        "difficulty": 0
+      }
+    }
+}
+}

@@ -1,0 +1,17 @@
+{
+  "scores" :
+  {
+    "art":
+    {
+      "computer": 5
+    },
+    "foo":
+    {
+      "computer": 5
+    },
+    "gam":
+    {
+      "computer": 5 
+    }
+  }
+}

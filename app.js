@@ -23,10 +23,10 @@ var db = firebase.database();
 var saver = db.ref("/scores");
 var qa = db.ref("/category");
 
-app.use(express.static('public'));
+app.use(express.static('pub'));
 
 app.get('/', function(req, res){
-  res.sendfile("public/index.html");
+  res.sendfile("pub/index.html");
 });
 
 app.get('/api', function(req, res){

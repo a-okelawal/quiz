@@ -162,6 +162,11 @@ $(document).ready(function()
         var opt = "<br/><li><p>" + st +"</p><br/><ul><li>" + o1  + "</li><br/><li>" + o2 + "</li><br/><li>" + o3 + "</li><br/><li>" + o4 + "</li></ul></li>";
         $('#resultlist').append(opt);
       }
+      var collect = saver.child(cat_id);
+      collect.push({
+        playername : playname,
+        score: count
+      });
       $('#finalans').append("You got: " + count + "/10");
       $('#results').slideDown();
     }
@@ -172,11 +177,7 @@ $(document).ready(function()
   */
   $('#lead').click(function()
   {
-    var collect = saver.child(cat_id);
-    collect.push({
-      playername : playname,
-      score: count
-    });
+    
     $('#main').slideUp(2000, function()
     {
       var cont = saver.orderByChild("score");

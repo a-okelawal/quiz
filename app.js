@@ -33,28 +33,39 @@ app.get('/api', function(req, res){
   res.json({"message" : "Hello there."});
 });
 
-app.get('/scores', function(req, res){
-  saver.on('value', function(snap)
+app.get('/scores/:playername', function(req, res)
+{
+  var temp = db.ref("/category/playername");
+  temp.orderByChild("playername").equalTo(req.params.playername).on('value', function(snap)
   {
     res.send(snap.val());
   });
 });
 
 app.get('/questions', function(req, res){
-  qa.on('value', function(snap){
+  qa.on('value', function(snap)
+  {
     res.send(snap.val());
   });
 });
 
-app.post('/users', function(req, res){
-
+app.get('/questions/:cat_id', function(req, res)
+{
+  qa.orderByKey().equalTo(req.params.cat_id).on('value', function(snap)
+  {
+    if(snap.val() !== null)
+    {
+      res.send(snap.val());
+    }
+    else
+    {
+      res.json({"Oh Oh!" : "No such category exists"});
+    }
+  }, function(errorobject)
+  {
+      res.json(404 , {status: 404, message : "No Such Category Exists", type: "user"});
+  });
 });
-
-/*app.get('/users/:id:name', function(req, res){
-  var user_id = req.params.id;
-  var user_name = req.params.name;
-  res.send("The name is: " + user_id " - " + user_name);
-});*/
 
 app.listen(3000, function(){
   console.log('Example app listening on port 3000');

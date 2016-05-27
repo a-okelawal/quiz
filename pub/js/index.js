@@ -179,7 +179,6 @@ $(document).ready(function()
     });
     $('#main').slideUp(2000, function()
     {
-      $("#mainlead").slideDown(2000);
       var cont = saver.orderByChild("score");
 
       cont.on('value', function(snap)
@@ -208,6 +207,7 @@ $(document).ready(function()
             $("#leaddiv").append("<p>" + st + "</p>");
           });
         });
+        $("#mainlead").slideDown(2000);
         localStorage.clear();
       },
       function(errorobject)

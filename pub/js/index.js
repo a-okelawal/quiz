@@ -33,7 +33,7 @@ $(document).ready(function()
       $('#user').slideDown(1000);
       $('#user').animate(
       {
-        left: "40px",
+        left: "100px",
         height: '30px',
         width: '30px',
       }, 1000);

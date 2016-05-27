@@ -42,6 +42,9 @@ app.get('/scores/:playername', function(req, res)
   });
 });
 
+/*
+Get all the questions
+*/
 app.get('/questions', function(req, res){
   qa.on('value', function(snap)
   {

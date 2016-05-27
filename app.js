@@ -36,7 +36,7 @@ app.get('/api', function(req, res){
 app.get('/scores/:playername', function(req, res)
 {
   var temp = db.ref("/category/playername");
-  temp.orderByChild("playername").equalTo(req.params.playername).on('value', function(snap)
+  temp.orderByChild().orderByChild("playername").equalTo(req.params.playername).on('value', function(snap)
   {
     res.send(snap.val());
   });

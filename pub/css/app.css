@@ -1,0 +1,139 @@
+header
+{
+  margin:auto;
+  width: 20%;
+}
+
+div.wrapper
+{
+  min-height: 100%;
+  height: 500px;
+}
+
+main.lead
+{
+  display: none;
+}
+
+p.subhead
+{
+  display:none;
+  text-align:center;
+  font: italic bold 30px arial;
+  color: #00AFDE;
+}
+
+p.subheadindiv
+{
+  text-align:center;
+  font: italic bold 30px arial;
+  color: #00AFDE;
+}
+
+div.category
+{
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+div.questions
+{
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+div.qanda
+{
+  display: none;
+  text-align:left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+table
+{
+  margin: 0 auto;
+}
+
+ul.menu
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #00AFDE;
+  overflow: hidden;
+}
+
+li
+{
+  display: inline-block;
+}
+
+li a.menu
+{
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.menu:hover:not(.active)
+{
+  color: #00AFDE;
+  background-color:white;
+}
+
+.active
+{
+  display: block;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid;
+}
+
+button
+{
+  padding: 14px 16px;
+  color: #00AFDE;
+  background-color: white;
+  border: 1px solid #00AFDE;
+  border-radius: 3px;
+  font: italic bold 20px arial;
+}
+
+button:active
+{
+  padding: 14px 16px;
+  color: white;
+  background-color: #00AFDE;
+  border-radius: 3px;
+}
+
+button:hover
+{
+  padding: 14px 16px;
+  color: white;
+  background-color: #00AFDE;
+  border-radius: 3px;
+}
+
+p.foot
+{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+footer
+{
+  position: relative;
+  padding: 14px 16px;
+  margin-top: -0px;
+  background-color: #00AFDE;
+  height: 50px;
+}

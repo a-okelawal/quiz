@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>iThink: Do you really?</title>
+    <link rel="stylesheet" href="css/app.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/logos.png"/>
+    </header>
+    <nav class="menu">
+      <ul class="menu">
+        <li><a class="active" href="index.html">Play Game</a></li>
+        <li><a class="menu" href="lead.html">Leader Board</a></li>
+      </ul>
+    </nav>
+
+    <div id="wrapper">
+    <main id="main">
+      <div id="beginning" style="text-align:center;">
+        <h3> Put in name and press "Start" to begin quiz </h3>
+        <input type="text" placeholder="Insert name here.." id="playername"/>
+        <p id="warn" style="display:none;">Please put in a username</p>
+        <br/>
+        <br/>
+        <button id="startbutton">Start</button>
+      </div>
+
+      <p class="subhead" id="user"></p>
+      <br/>
+      <div class="category" id="category">
+        <p class="subheadindiv"> Pick a Category </p>
+        <table>
+          <tr>
+            <td><button id="art">Art n'Fashion</button></td>
+            <td><button id="foo">Food n'Sports</button></td>
+            <td><button id="gam">Games n'Music</button></td>
+          </tr>
+        </table>
+      </div>
+
+      <br/>
+      <div class="qanda" id="questions">
+        <p class="subhead" id="mainquestion"></p>
+        <br/>
+        <form id="form">
+        </form>
+        <br/>
+        <button id="next">Next</button>
+        <br/>
+        <br/>
+      </div>
+      <br/>
+
+      <div class="qanda" id="results" style="text-align:center;">
+        <p id="resultquestion"></p>
+        <br/>
+        <ul id="resultlist">
+        </ul>
+        <br/>
+        <p id="finalans"></p>
+        <br/>
+        <button id="lead" style="margin-right:10px;">LeaderBoard</button> <button>Play Again</button>
+        <br/>
+      </div>
+    </main>
+
+    <main id="mainlead">
+      <div id="leaddiv" style="text-align:center">
+      </div>
+    </main>
+  </div>
+  <footer>
+    <p class="foot">Copywrite The Andela Group.</p>
+  </footer>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script>
+      /*
+      Initialize firebase
+      */
+      var config = {
+        apiKey: "AIzaSyDbQo5Tery4exlsCy_KKeTm6L9VRQ_cr44",
+        authDomain: "quizapp-a4360.firebaseapp.com",
+        databaseURL: "https://quizapp-a4360.firebaseio.com",
+        storageBucket: "quizapp-a4360.appspot.com",
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
